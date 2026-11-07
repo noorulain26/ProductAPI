@@ -1,4 +1,4 @@
-# Product Management REST API 🚀
+# Product Management REST API 
 
 A simple, secure, and clean Product API built with **ASP.NET Core (.NET 8/9)**. This project is created using **Clean Architecture** to keep the code neat, professional, and easy to maintain.
 
@@ -33,11 +33,11 @@ This is the outside world layer that handles the HTTP network requests.
 
 ##  Key Features Inside
 
-- **JWT Token Security:** Secure login system. No one can create a product unless they log in first 🔒.
-- **Global Error Handling:** A smart background middleware that catches all validation errors and system crashes automatically 🛡️.
-- **Input Validation:** Powered by **FluentValidation** to block bad data (like empty names or negative prices) ✅.
-- **Manual Mapping:** Super-fast conversion using native C# extension methods without installing heavy libraries 🔄.
-- **Live Database Migrations:** Easy table setup inside **SQL Server** using EF Core 🗄️.
+- **JWT Token Security:** Secure login system. No one can create a product unless they log in first .
+- **Global Error Handling:** A smart background middleware that catches all validation errors and system crashes automatically.
+- **Input Validation:** Powered by **FluentValidation** to block bad data (like empty names or negative prices).
+- **Manual Mapping:** Super-fast conversion using native C# extension methods without installing heavy libraries.
+- **Live Database Migrations:** Easy table setup inside **SQL Server** using EF Core.
 
 ---
 
@@ -69,4 +69,4 @@ Update-Database
 2. Open **Postman App**.
 3. Send a `POST` request to `/api/Auth/login` with Username: `admin` and Password: `password123` to get your secure **JWT Token**.
 4. Copy that token, go to your `/api/Product` endpoint, paste it into the **Bearer Token** section under the *Authorization* tab.
-5. Send your product details in the body, and see the beautiful **`201 Created`** success status! 🎉
+5. Send your product details in the body, and see the beautiful **`201 Created`** success status! 
